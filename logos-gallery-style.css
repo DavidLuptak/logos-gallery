@@ -1,0 +1,17 @@
+img {
+	border: 1px solid #ccc;
+	margin: 5px;
+	width: 240px;
+	height: auto;
+}
+
+div.logos:hover > a img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+div.logos:hover > a img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	border: 1px solid #777;
+}
