@@ -6,6 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="logos-gallery-style.css">
 </head>
 <body>
+
+<style type="text/css">
+img {
+	border: 1px solid #ccc;
+	margin: 8px;
+	width: 220px;
+	height: auto;
+}
+
+div.logos:hover > a img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+div.logos:hover > a img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	border: 1px solid #777;
+}
+
+.mz_editable img {
+    display: inline;
+    max-width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+</style>
+
 <h1>Logos Gallery</h1>
 <div class="logos">
 	<a href="http://www.banskabystrica.sk/" target="_blank"><img src="http://site-203845.mozfiles.com/files/203845/mesto_bb.png" alt="Mesto Banská Bystrica" title="Mesto Banská Bystrica"></a>
