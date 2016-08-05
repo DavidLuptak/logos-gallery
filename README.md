@@ -4,4 +4,4 @@ The repository consists of simple CSS style to conform the needs for presenting 
 
 Inspired by [Hover on “Everything But”](https://css-tricks.com/hover-on-everything-but/) tutorial by Chris Coyier.
 
-[_Deployed_](http://parkourmeetingbb.mozello.sk/podporili-nas/) on the official webpage of the event Parkour Meeting Banská Bystrica.
+[_Deployed_](http://parkourmeetingbb.mozello.com/podporili-nas/) on the official webpage of the event Parkour Meeting Banská Bystrica.
